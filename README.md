@@ -1,6 +1,8 @@
-This is a program to add gossip of THP members.
+This is a program to add gossip of THP members to as CSV database.
 
-You can add gossips and they will be diplayed on the main page.
+The added gossips can also be displayed.
 
-Each gossip has its own page.
+In addition each gossip has its own page/url.
+
+I finished the project at 2.6.5, so with this program is not possible to edit gossips.
 
