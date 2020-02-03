@@ -15,6 +15,17 @@ post '/gossips/new/' do
  redirect '/'
 end
 
+# get '/gossips/:id' do
+# id = params['id'].to_i
+# erb :show, locals:{gossips: Gossip.find(id), index: id}
+# Gossip.find(id)
+# end
+
+get '/gossips/:id/' do
+    puts "Voici le numéro du potin que tu veux : #{params['id']} !"
+    erb :show, locals: {id: params['id'].to_i, gossips: Gossip.find(params['id'].to_i)}
+  end
+
 
 
 end
